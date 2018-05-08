@@ -43,14 +43,6 @@
                                                 name="./jcr:title"
                                                 renderReadOnly="{Boolean}true"
                                                 required="{Boolean}true"/>
-                                              <titledesc
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                                cq-msm-lockable="jcr:title"
-                                                fieldLabel="TitleDescription"
-                                                name="./jcr:titledesc"
-                                                renderReadOnly="{Boolean}true"
-                                                required="{Boolean}true"/>
                                             <msmConfigEndpoint
                                                 jcr:primaryType="nt:unstructured"
                                                 sling:resourceType="granite/ui/components/foundation/form/hidden"

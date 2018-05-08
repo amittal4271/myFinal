@@ -2,79 +2,9 @@
 <div data-sly-resource="${'cloudservices' @ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap></div>
 <!-- Body text here -->
 <main id="test-home" class="main-content-container">
-<section id="scroller-content">
-    <div class="container">
-         <div class="row">
-              <div id="homepage-scroller" class="col-md-8">
-                  <div data-sly-resource="${'content-carousel' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>
-              </div>
-              <div id="homepage-right-side" class="col-md-4">
-                  <div data-sly-resource="${'content-brand-of-the-month' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>
-              </div>
-         </div>
-    </div>
-</section>    
-<section class="home-featured-brands">
-	<div class="featured-icon-center"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="featured-title">Featured Brands</h2>
-				<p class="featured-subtext">Learn about the brands that futher our mission of fairness, honesty and quality.</p>
-			</div>
-		</div>
-		<div class="row featured-holder">
-                <!--/* <div data-sly-resource="${'content-featured-brand' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div> */ -->
-                <div class="each-featured-section col-xs-12 col-md-3 clearfix">     
-                        <div data-sly-resource="${'featured-brand-1' @ resourceType='frontierwholesales/components/content/home/featured-brand'}" data-sly-unwrap> </div>
-                </div>  
-                <div class="each-featured-section col-xs-12 col-md-3 clearfix">     
-                        <div data-sly-resource="${'featured-brand-2' @ resourceType='frontierwholesales/components/content/home/featured-brand'}" data-sly-unwrap> </div>
-                </div>
-                <div class="each-featured-section col-xs-12 col-md-3 clearfix">     
-                        <div data-sly-resource="${'featured-brand-3' @ resourceType='frontierwholesales/components/content/home/featured-brand'}" data-sly-unwrap> </div>
-                </div>
-                <div class="each-featured-section col-xs-12 col-md-3 clearfix">     
-                        <div data-sly-resource="${'featured-brand-4' @ resourceType='frontierwholesales/components/content/home/featured-brand'}" data-sly-unwrap> </div>
-                </div>
-		</div>
-	</div>
-</section>    
-    
-<section class="new-products-specials">
-	<div class="container">
-		<div class="row">
-			<div class="first col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-				<div data-sly-resource="${'content-text-image-1' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>
-			</div>
 
-			<div class="col-xs-12 col-sm-6 col-md-5">
-				<div data-sly-resource="${'content-text-image-2' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>
-			</div>
-		</div>
-	</div>
-</section>
-       
-<section class="blog-subscribe">
-	<div class="container">
-		<div class="row">
-			<div class="blog-section col-md-7 ">
-				<div class="row">
-                    <div data-sly-resource="${'content-from-the-blog' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>    
-				</div>
-			</div>
-			<div class="subscribe-section col-xs-12 col-md-5 ">
-				<div class="row">
-					<div class="col-md-12">
-						<div data-sly-resource="${'subscribe-section' @ resourceType='foundation/components/parsys'}" data-sly-unwrap> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-    
-    
+<div class="page__par" data-sly-resource="${'homepagecontrol' @ resourceType='frontierwholesales/components/content/home/homepageControl'}">
+
+
 </main>
 </body>
-    
